@@ -24,7 +24,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg npm tesseract-ocr-all mediainfo
-          sudo npm install -g grunt-cli
+          sudo npm install -g grunt-cli --force
           java -version
           mvn -version
           node -v
